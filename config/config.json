@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "NguyenThienDuc26092004",
-    "database": "sequelize_exercise",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "sequelize_postgres_22ktpm4_22127072_db",
+    "password": "wGPzhOt7TXhpeqOicMcMqYd5bHzb92LR",
+    "database": "sequelize_postgres_22ktpm4_22127072_db",
+    "host": "dpg-ct2o2n3v2p9s73avu470-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -14,10 +20,16 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "sequelize_postgres_22ktpm4_22127072_db",
+    "password": "wGPzhOt7TXhpeqOicMcMqYd5bHzb92LR",
+    "database": "sequelize_postgres_22ktpm4_22127072_db",
+    "host": "dpg-ct2o2n3v2p9s73avu470-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
